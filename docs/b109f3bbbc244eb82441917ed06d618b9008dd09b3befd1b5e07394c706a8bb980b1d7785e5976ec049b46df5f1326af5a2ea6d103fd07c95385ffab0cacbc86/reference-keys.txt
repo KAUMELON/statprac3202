@@ -1,4 +1,11 @@
 tab:unnamed-chunk-1
+tab:unnamed-chunk-2
+tab:unnamed-chunk-3
+tab:unnamed-chunk-4
+tab:unnamed-chunk-5
+tab:unnamed-chunk-6
 exercise-1
 construction-of-frequency-distribution
+exercise-2
+measures-of-central-tendency
 references
