@@ -18,7 +18,7 @@ library(kableExtra)
 dt<-read.csv("csv/freqdist.csv")
 dt %>%
   kbl(caption = "Frequency distribution ",col.names = NULL) %>%
-  kable_paper("hover", full_width = F)
+ kable_classic(full_width = F, html_font = "Cambria")
 
 ```
 [**SOLUTION**]{.ul}:  

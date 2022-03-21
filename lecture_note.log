@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.3.21)  21 MAR 2022 21:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.3.21)  21 MAR 2022 22:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -637,7 +637,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.190 \caption
-              {\label{tab:t1}mean calculation} 
+              {\label{tab:t1}mean} 
 Here is how much of TeX's memory you used:
  12156 strings out of 480236
  191475 string characters out of 5894460
