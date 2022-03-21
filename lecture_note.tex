@@ -1,0 +1,313 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{book}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={PRACTICAL MANUAL OF STAT 3202},
+  pdfauthor={Dr.~Pratheesh P. Gopinath \& Neethu S Kumar},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+\usepackage{xcolor}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\title{PRACTICAL MANUAL OF STAT 3202}
+\author{Dr.~Pratheesh P. Gopinath \& Neethu S Kumar}
+\date{2022-01-30}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{welcome}{%
+\chapter*{Welcome}\label{welcome}}
+\addcontentsline{toc}{chapter}{Welcome}
+
+Welcome to the book \textbf{PRACTICAL MANUAL OF STATISTICAL METHODS AND APPLICATIONS (STAT 3202)}.
+
+\hypertarget{preface}{%
+\chapter*{Preface}\label{preface}}
+\addcontentsline{toc}{chapter}{Preface}
+
+\textbf{Note}: This book is published in MeLoN (Module for e-Learning \& Online Notes) . The online version of this book is free to read here. You can download the PDF and take print out while submitting the records.
+
+If you have any feedback, please feel free to contact \href{https://coavellayani.kau.in/people/dr-pratheesh-p-gopinath}{Dr.Pratheesh P. Gopinath}. E-mail: \emph{\href{mailto:pratheesh.pg@kau.in}{\nolinkurl{pratheesh.pg@kau.in}}}. Thank you!
+
+This is a Practical Manual of STAT 3202 covering the syllabus of statistics course in B.Sc.(Hons.) Agriculture under Kerala Agricultural University
+
+\hypertarget{exercise-1}{%
+\chapter{Exercise 1}\label{exercise-1}}
+
+\hypertarget{construction-of-frequency-distribution}{%
+\section{Construction of Frequency Distribution}\label{construction-of-frequency-distribution}}
+
+\underline{Steps in construction of frequency distribution}:
+
+\begin{itemize}
+\tightlist
+\item
+  Determine the number of classes\\
+\item
+  Determine the class width\\
+\item
+  Set up the individual class limits\\
+\item
+  Tally the items into the classes\\
+\item
+  Count the number of items in each class
+\end{itemize}
+
+Table 1.1 below shows the data related to the grain yield in (g /plot) of a sorghum variety from experimental plots of equal area from a continuous frequency distribution. Prepare a frequency distribution and cumulative frequency distribution
+
+\begin{table}
+
+\caption{\label{tab:t11}Frequency distribution }
+\centering
+\begin{tabular}[t]{r|r|r|r|r|r|r|r|r|r}
+\hline
+194 & 129 & 166 & 164 & 154 & 139 & 128 & 120 & 80 & 168\\
+\hline
+150 & 186 & 156 & 179 & 153 & 157 & 155 & 115 & 676 & 171\\
+\hline
+118 & 143 & 191 & 148 & 152 & 187 & 129 & 119 & 139 & 177\\
+\hline
+191 & 214 & 167 & 165 & 186 & 111 & 155 & 164 & 125 & 99\\
+\hline
+86 & 170 & 111 & 169 & 141 & 164 & 89 & 180 & 225 & 139\\
+\hline
+127 & 136 & 144 & 165 & 154 & 74 & 156 & 142 & 162 & 160\\
+\hline
+171 & 134 & 177 & 178 & 168 & 165 & 188 & 131 & 154 & 107\\
+\hline
+189 & 156 & 176 & 150 & 142 & 144 & 153 & 190 & 183 & 180\\
+\hline
+161 & 170 & 195 & 136 & 91 & 187 & 152 & 145 & 98 & 166\\
+\hline
+\end{tabular}
+\end{table}
+
+\underline{\textbf{SOLUTION}}:
+
+Number of Classes, \emph{k} =1 + 3.322 log\textsubscript{10}\emph{N} =
+
+Class width, C = \textbar{} max - min\textbar/ k =
+
+Lower limit as L = min - \(\frac{c^{'} - k^{'} - (max - min)}{2}\) =
+
+\hypertarget{exercise-2}{%
+\chapter{Exercise 2}\label{exercise-2}}
+
+\hypertarget{measures-of-central-tendency}{%
+\section{Measures of Central Tendency}\label{measures-of-central-tendency}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  If the weights of 5 ear heads of sorghum are 100, 102, 118, 124 \& 126, find the mean weight?
+\item
+  Calculate the mean value for the frequency distribution of weights of sorghum ear heads (Table 2.1)?\\
+  \textbackslash begin\{table\}
+\end{enumerate}
+
+\caption{\label{tab:t1}mean calculation}
+\centering
+\begin{tabular}[t]{l|l|l|l|l|l|l|l|l}
+\hline
+Wt of ear head & 40-60 & 60-80 & 80-100 & 100-120 & 120-140 & 140-160 & 160-180 & 180-200\\
+\hline
+number & 6 & 28 & 35 & 55 & 30 & 15 & 12 & 9\\
+\hline
+\end{tabular}
+
+\textbackslash end\{table\}
+3. If the weight of sorghum ear heads are 45, 60, 48, 100 \& 65, find the median.\\
+4. Find out the median and mode for the data in Table 2.1
+5. Calculate the mode value for the following frequency distribution (Table 2.2)
+
+\begin{table}
+
+\caption{\label{tab:t2}mode calculation}
+\centering
+\begin{tabular}[t]{l|l|l|l|l|l|l|l|l}
+\hline
+C.I & 0-10 & 10-20 & 20-30 & 30-40 & 40-50 & 50-60 & 60-70 & 70-80\\
+\hline
+Freq. & 4 & 2 & 18 & 22 & 21 & 19 & 10 & 3\\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{5}
+\tightlist
+\item
+  Find out the mean, median and mode for weekly wages of 100 workers in a farm\\
+  \textbackslash begin\{table\}
+\end{enumerate}
+
+\caption{\label{tab:t3}weekly wages}
+\centering
+\begin{tabular}[t]{l|r}
+\hline
+Weekly.wages & Number.of.workers\\
+\hline
+20-24 & 4\\
+\hline
+25-29 & 5\\
+\hline
+30-34 & 12\\
+\hline
+34-39 & 23\\
+\hline
+40-44 & 31\\
+\hline
+45-49 & 10\\
+\hline
+50-54 & 8\\
+\hline
+55-59 & 5\\
+\hline
+60-64 & 2\\
+\hline
+\end{tabular}
+
+\textbackslash end\{table\}
+7. The following data gives number of flowers observed from 20 plants.Find the arithmetic mean, geometric mean, harmonic mean.\\
+42, 88, 37, 75, 98, 93, 73, 62, 96, 80, 52, 76, 66, 54, 73, 69, 83, 62, 53, 79\\
+8. Table 2.4 below gives the distribution of the heights of 60 students in a Senior High school. Find Q1 \& Q3\\
+
+\begin{table}
+
+\caption{\label{tab:t4}height of students}
+\centering
+\begin{tabular}[t]{l|l|l|l|l|l|l}
+\hline
+Height & 145-150 & 150-155 & 155-160 & 160-165 & 165-170 & 170-175\\
+\hline
+No: of students & 3 & 9 & 16 & 18 & 10 & 4\\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{8}
+\tightlist
+\item
+  Find 𝑃25, 𝑃50\& 𝑃75 and D5 and Q2 for the Table 2.5 given below
+  \textbackslash begin\{table\}
+\end{enumerate}
+
+\caption{\label{tab:t5}Frequency data}
+\centering
+\begin{tabular}[t]{l|r|r}
+\hline
+class & frequency & cf\\
+\hline
+0-10 & 11 & 11\\
+\hline
+Oct-20 & 18 & 29\\
+\hline
+20-30 & 25 & 54\\
+\hline
+30-40 & 28 & 82\\
+\hline
+40-50 & 30 & 112\\
+\hline
+50-60 & 33 & 145\\
+\hline
+60-70 & 22 & 167\\
+\hline
+70-80 & 15 & 182\\
+\hline
+80-90 & 12 & 194\\
+\hline
+90-100 & 10 & 204\\
+\hline
+\end{tabular}
+
+\textbackslash end\{table\}
+
+\hypertarget{references}{%
+\chapter{References}\label{references}}
+
+\end{document}

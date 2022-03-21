@@ -9,9 +9,8 @@ biblio-style: apalike
 link-citations: yes
 github-repo: https://github.com/KAUMELON/stat3202
 description: "A BOOK FOR UNDERGRADUATE PROGRAMME IN AGRICULTURE"
-cover-image: images/coverpage.PNG
+cover-image: images/coverpage.PNG  
 ---  
- 
 
 # Welcome {-} 
 <p style="text-align: center;"><a href="https://coavellayani.kau.in/people/dr-pratheesh-p-gopinath"><img src="images/cover.png" alt="DAEA cover" /></a></p>  
