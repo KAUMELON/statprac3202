@@ -1,9 +1,3 @@
-tab:t11
-tab:t1
-tab:t2
-tab:t3
-tab:t4
-tab:t5
 exercise-1
 construction-of-frequency-distribution
 exercise-2

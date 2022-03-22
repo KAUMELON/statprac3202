@@ -10,15 +10,16 @@
 + Tally the items into the classes  
 + Count the number of items in each class  
 
-Table 1.1 below shows the data related to the grain yield in (g /plot) of a sorghum variety from experimental plots of equal area from a continuous frequency distribution. Prepare a frequency distribution and cumulative frequency distribution
+Table below shows the data related to the grain yield in (g /plot) of a sorghum variety from experimental plots of equal area from a continuous frequency distribution. Prepare a frequency distribution and cumulative frequency distribution
 
 ```{r t11, echo=FALSE,warning=FALSE,results='asis'}
 library(knitr)
 library(kableExtra)
 dt<-read.csv("csv/freqdist.csv")
 dt %>%
-  kbl(caption = "Frequency distribution ",col.names = NULL) %>%
- kable_classic(full_width = F, html_font = "Cambria")
+  kable(col.names = NULL) %>%
+ kable_classic(full_width = F, html_font = "Cambria")%>%
+  kableExtra::kable_styling(latex_options = "HOLD_position")
 
 ```
 [**SOLUTION**]{.ul}:  

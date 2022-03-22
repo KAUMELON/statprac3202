@@ -8,25 +8,27 @@ output:
 
 1. If the weights of 5 ear heads of sorghum are 100, 102, 118, 124 & 126, find the mean weight?  
 
-2. Calculate the mean value for the frequency distribution of weights of sorghum ear heads (Table 2.1)?  
+2. Calculate the mean value for the frequency distribution of weights of sorghum ear heads given below?  
 ```{r t1, echo=FALSE,warning=FALSE,results='asis'}
 library(knitr)
 library(kableExtra)
 dt<-read.csv("csv/meansorghum.csv")
 dt %>%
-  kbl(caption = "mean",col.names = NULL) %>%
-   kable_classic(full_width = F, html_font = "Cambria")
+  kbl(col.names = NULL) %>%
+   kable_classic(full_width = F, html_font = "Cambria")%>%
+kable_styling(latex_options = "HOLD_position")
 ```  
 3. If the weight of sorghum ear heads are 45, 60, 48, 100 & 65, find the median.  
-4. Find out the median and mode for the data in Table 2.1
-5. Calculate the mode value for the following frequency distribution (Table 2.2)
+4. Find out the median and mode for the frequency distribution of sorghum ear heads in question no. 2.
+5. Calculate the mode value for the following frequency distribution
 ```{r t2, echo=FALSE,warning=FALSE,results='asis'}
 library(knitr)
 library(kableExtra)
 dt<-read.csv("csv/mode.csv")
 dt %>%
-  kbl(caption = "mode calculation",col.names = NULL) %>%
-   kable_classic(full_width = F, html_font = "Cambria")
+  kbl(col.names = NULL) %>%
+   kable_classic(full_width = F, html_font = "Cambria")%>%
+kable_styling(latex_options = "HOLD_position")
 ```  
 6.  Find out the mean, median and mode for weekly wages of 100 workers in a farm  
 ```{r t3, echo=FALSE,warning=FALSE,results='asis'}
@@ -34,28 +36,32 @@ library(knitr)
 library(kableExtra)
 dt<-read.csv("csv/wklywages.csv")
 dt %>%
-  kbl(caption = "weekly wages") %>%
-  kable_classic(full_width = F, html_font = "Cambria")
+  kbl(booktabs = TRUE) %>%
+  kable_classic(full_width = F, html_font = "Cambria")%>%
+kable_styling(latex_options = "HOLD_position")
 ``` 
 7.  The following data gives number of flowers observed from 20 plants.Find the arithmetic mean, geometric mean, harmonic mean.  
 42, 88, 37, 75, 98, 93, 73, 62, 96, 80, 52, 76, 66, 54, 73, 69, 83, 62, 53, 79  
-8. Table 2.4 below gives the distribution of the heights of 60 students in a Senior High school. Find Q1 & Q3  
+8. Table below gives the distribution of the heights of 60 students in a Senior High school. Find Q1 & Q3  
 ```{r t4, echo=FALSE,warning=FALSE,results='asis'}
 library(knitr)
 library(kableExtra)
 dt<-read.csv("csv/quartiles.csv")
 dt %>%
-  kbl(caption = "height of students",col.names = NULL) %>%
-   kable_classic(full_width = F, html_font = "Cambria")
+  kbl(col.names = NULL,booktabs = TRUE) %>%
+   kable_classic(full_width = F, html_font = "Cambria")%>%
+kable_styling(latex_options = "HOLD_position")
 
 ```  
-9. Find 𝑃25, 𝑃50& 𝑃75 and D5 and Q2 for the Table 2.5 given below
+9. Find 𝑃25, 𝑃50& 𝑃75 and D5 and Q2 for the frequency data given below
 ```{r t5, echo=FALSE,warning=FALSE,results='asis'}
 library(knitr)
 library(kableExtra)
 dt<-read.csv("csv/percentile.csv")
 dt %>%
-  kbl(caption = "Frequency data") %>%
-   kable_classic(full_width = F, html_font = "Cambria")
+  kbl(booktabs = TRUE) %>%
+   kable_classic(full_width = F, html_font = "Cambria") %>%
+kable_styling(latex_options = "HOLD_position")
+
 
 ```

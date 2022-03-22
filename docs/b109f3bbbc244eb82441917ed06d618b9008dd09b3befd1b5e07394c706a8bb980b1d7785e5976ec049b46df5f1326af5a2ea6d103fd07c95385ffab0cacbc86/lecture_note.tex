@@ -85,6 +85,8 @@
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
+\usepackage[]{natbib}
+\bibliographystyle{apalike}
 
 \title{PRACTICAL MANUAL OF STAT 3202}
 \author{Dr.~Pratheesh P. Gopinath \& Neethu S Kumar}
@@ -135,13 +137,11 @@ This is a Practical Manual of STAT 3202 covering the syllabus of statistics cour
   Count the number of items in each class
 \end{itemize}
 
-Table 1.1 below shows the data related to the grain yield in (g /plot) of a sorghum variety from experimental plots of equal area from a continuous frequency distribution. Prepare a frequency distribution and cumulative frequency distribution
+Table below shows the data related to the grain yield in (g /plot) of a sorghum variety from experimental plots of equal area from a continuous frequency distribution. Prepare a frequency distribution and cumulative frequency distribution
 
-\begin{table}
-
-\caption{\label{tab:t11}Frequency distribution }
+\begin{table}[H]
 \centering
-\begin{tabular}[t]{r|r|r|r|r|r|r|r|r|r}
+\begin{tabular}{r|r|r|r|r|r|r|r|r|r}
 \hline
 194 & 129 & 166 & 164 & 154 & 139 & 128 & 120 & 80 & 168\\
 \hline
@@ -183,131 +183,100 @@ Lower limit as L = min - \(\frac{c^{'} - k^{'} - (max - min)}{2}\) =
 \item
   If the weights of 5 ear heads of sorghum are 100, 102, 118, 124 \& 126, find the mean weight?
 \item
-  Calculate the mean value for the frequency distribution of weights of sorghum ear heads (Table 2.1)?\\
-  \textbackslash begin\{table\}
-\end{enumerate}
+  Calculate the mean value for the frequency distribution of weights of sorghum ear heads given below?\\
 
-\caption{\label{tab:t1}mean}
-\centering
-\begin{tabular}[t]{l|l|l|l|l|l|l|l|l}
-\hline
-Wt of ear head & 40-60 & 60-80 & 80-100 & 100-120 & 120-140 & 140-160 & 160-180 & 180-200\\
-\hline
-number & 6 & 28 & 35 & 55 & 30 & 15 & 12 & 9\\
-\hline
-\end{tabular}
+  \begin{table}[H]
+  \centering
+  \begin{tabular}[t]{l|l|l|l|l|l|l|l|l}
+  \hline
+  Wt of ear head & 40-60 & 60-80 & 80-100 & 100-120 & 120-140 & 140-160 & 160-180 & 180-200\\
+  \hline
+  number & 6 & 28 & 35 & 55 & 30 & 15 & 12 & 9\\
+  \hline
+  \end{tabular}
+  \end{table}
+\item
+  If the weight of sorghum ear heads are 45, 60, 48, 100 \& 65, find the median.\\
+\item
+  Find out the median and mode for the frequency distribution of sorghum ear heads in question no. 2.
+\item
+  Calculate the mode value for the following frequency distribution
 
-\textbackslash end\{table\}
-3. If the weight of sorghum ear heads are 45, 60, 48, 100 \& 65, find the median.\\
-4. Find out the median and mode for the data in Table 2.1
-5. Calculate the mode value for the following frequency distribution (Table 2.2)
-
-\begin{table}
-
-\caption{\label{tab:t2}mode calculation}
-\centering
-\begin{tabular}[t]{l|l|l|l|l|l|l|l|l}
-\hline
-C.I & 0-10 & 10-20 & 20-30 & 30-40 & 40-50 & 50-60 & 60-70 & 70-80\\
-\hline
-Freq. & 4 & 2 & 18 & 22 & 21 & 19 & 10 & 3\\
-\hline
-\end{tabular}
-\end{table}
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\setcounter{enumi}{5}
-\tightlist
+  \begin{table}[H]
+  \centering
+  \begin{tabular}[t]{l|l|l|l|l|l|l|l|l}
+  \hline
+  C.I & 0-10 & 10-20 & 20-30 & 30-40 & 40-50 & 50-60 & 60-70 & 70-80\\
+  \hline
+  Freq. & 4 & 2 & 18 & 22 & 21 & 19 & 10 & 3\\
+  \hline
+  \end{tabular}
+  \end{table}
 \item
   Find out the mean, median and mode for weekly wages of 100 workers in a farm\\
-  \textbackslash begin\{table\}
-\end{enumerate}
 
-\caption{\label{tab:t3}weekly wages}
-\centering
-\begin{tabular}[t]{l|r}
-\hline
-Weekly.wages & Number.of.workers\\
-\hline
-20-24 & 4\\
-\hline
-25-29 & 5\\
-\hline
-30-34 & 12\\
-\hline
-34-39 & 23\\
-\hline
-40-44 & 31\\
-\hline
-45-49 & 10\\
-\hline
-50-54 & 8\\
-\hline
-55-59 & 5\\
-\hline
-60-64 & 2\\
-\hline
-\end{tabular}
-
-\textbackslash end\{table\}
-7. The following data gives number of flowers observed from 20 plants.Find the arithmetic mean, geometric mean, harmonic mean.\\
-42, 88, 37, 75, 98, 93, 73, 62, 96, 80, 52, 76, 66, 54, 73, 69, 83, 62, 53, 79\\
-8. Table 2.4 below gives the distribution of the heights of 60 students in a Senior High school. Find Q1 \& Q3\\
-
-\begin{table}
-
-\caption{\label{tab:t4}height of students}
-\centering
-\begin{tabular}[t]{l|l|l|l|l|l|l}
-\hline
-Height & 145-150 & 150-155 & 155-160 & 160-165 & 165-170 & 170-175\\
-\hline
-No: of students & 3 & 9 & 16 & 18 & 10 & 4\\
-\hline
-\end{tabular}
-\end{table}
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\setcounter{enumi}{8}
-\tightlist
+  \begin{table}[H]
+  \centering
+  \begin{tabular}[t]{lr}
+  \toprule
+  Weekly.wages & Number.of.workers\\
+  \midrule
+  20-24 & 4\\
+  25-29 & 5\\
+  30-34 & 12\\
+  34-39 & 23\\
+  40-44 & 31\\
+  \addlinespace
+  45-49 & 10\\
+  50-54 & 8\\
+  55-59 & 5\\
+  60-64 & 2\\
+  \bottomrule
+  \end{tabular}
+  \end{table}
 \item
-  Find 𝑃25, 𝑃50\& 𝑃75 and D5 and Q2 for the Table 2.5 given below
-  \textbackslash begin\{table\}
+  The following data gives number of flowers observed from 20 plants.Find the arithmetic mean, geometric mean, harmonic mean.\\
+  42, 88, 37, 75, 98, 93, 73, 62, 96, 80, 52, 76, 66, 54, 73, 69, 83, 62, 53, 79\\
+\item
+  Table below gives the distribution of the heights of 60 students in a Senior High school. Find Q1 \& Q3\\
+
+  \begin{table}[H]
+  \centering
+  \begin{tabular}[t]{lllllll}
+  \toprule
+  Height & 145-150 & 150-155 & 155-160 & 160-165 & 165-170 & 170-175\\
+  No: of students & 3 & 9 & 16 & 18 & 10 & 4\\
+  \bottomrule
+  \end{tabular}
+  \end{table}
+\item
+  Find 𝑃25, 𝑃50\& 𝑃75 and D5 and Q2 for the frequency data given below
+
+  \begin{table}[H]
+  \centering
+  \begin{tabular}[t]{lrr}
+  \toprule
+  class & frequency & cf\\
+  \midrule
+  0-10 & 11 & 11\\
+  Oct-20 & 18 & 29\\
+  20-30 & 25 & 54\\
+  30-40 & 28 & 82\\
+  40-50 & 30 & 112\\
+  \addlinespace
+  50-60 & 33 & 145\\
+  60-70 & 22 & 167\\
+  70-80 & 15 & 182\\
+  80-90 & 12 & 194\\
+  90-100 & 10 & 204\\
+  \bottomrule
+  \end{tabular}
+  \end{table}
 \end{enumerate}
-
-\caption{\label{tab:t5}Frequency data}
-\centering
-\begin{tabular}[t]{l|r|r}
-\hline
-class & frequency & cf\\
-\hline
-0-10 & 11 & 11\\
-\hline
-Oct-20 & 18 & 29\\
-\hline
-20-30 & 25 & 54\\
-\hline
-30-40 & 28 & 82\\
-\hline
-40-50 & 30 & 112\\
-\hline
-50-60 & 33 & 145\\
-\hline
-60-70 & 22 & 167\\
-\hline
-70-80 & 15 & 182\\
-\hline
-80-90 & 12 & 194\\
-\hline
-90-100 & 10 & 204\\
-\hline
-\end{tabular}
-
-\textbackslash end\{table\}
 
 \hypertarget{references}{%
 \chapter{References}\label{references}}
+
+  \bibliography{book.bib}
 
 \end{document}
