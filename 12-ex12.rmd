@@ -1,0 +1,21 @@
+# [Randomized Block Design (RBD)
+
+1.  An experiment was conducted in RBD to study the comparative
+    performance of fodder sorghum under rain fed conditions. The results
+    are given below. Analyze the data
+
+  --------------------------------------------------------------------------
+  Variety        Replication                                  
+  -------------- -------------- -------------- -------------- --------------
+                 1              2              3              4
+
+  African tall   22.9           25.9           39.1           33.9
+
+  Co -11         29.5           30.4           35.3           29.6
+
+  FS-1           28.8           24.4           32.1           28.6
+
+  K-7            47.0           40.9           42.8           32.1
+
+  Co -24         28.9           20.4           21.1           31.8
+  --------------------------------------------------------------------------

@@ -1,0 +1,42 @@
+# Probability
+
+1.  A bag contains 3 red, 6 white and 7 blue balls. What is the
+    probability that two balls drawn at random are one is white and
+    other is blue?
+
+2.  A committee of five persons is to be made from 6 men and 9 women. If
+    the selection is made randomly, what is the probability that the
+    committee consist of 3 men and 2 women?
+
+3.  A bag contains 6 red and 5 blue balls. If 2 of them are drawn at
+    random, what is the probability that one is red and one is blue?
+
+4.  From a pack of 17 cards numbered from 1 to 17, one is drawn at
+    random. What is the probability that the number on that card is
+    divisible by 3 or 7.
+
+5.  A candidate is appearing for two examinations A and B. Probability
+    that he will pass the exam A is 3/5 and probability of passing B is
+    1/3. The probability that he will pass both exams is 1/8. What is
+    the probability that the candidate will pass the either exam A or B?
+
+6.  Tickets were numbered from 1 to100. They are well shuffled and a
+    ticket is drawn at random. Find the probability that ticket drawn is
+
+\(a\) an even number
+
+\(b\) a number 5 or multiple of 5
+
+\(c\) a number greater than 75
+
+\(d\) a number which is a square
+
+7.  20 candidates appear in two examinations A and B. Eight passed exam
+    A, Seven passed exam B, Eight failed in both A and B. If one
+    candidate is selected at random, find the probability that
+
+\(a\) Passed both exam A and B.
+
+\(b\) Failed only in A
+
+\(c\) Failed in A or B

@@ -1,0 +1,17 @@
+# Latin Square Design (LSD)
+
+1.  An experiment was conducted in LSD to compare the yield of 5
+    varieties of wheat. The layout data pertaining to yield are given
+    below. Analyse the data
+
+  --------------------------------------------------------------------------
+  E 7            C 11           B 6            A 5            D 6
+  -------------- -------------- -------------- -------------- --------------
+  A 3            E 7            C 11           D 7            B 5
+
+  B 4            D 8            A 4            C 9            E 8
+
+  D 8            A 5            E 9            B 4            C 12
+
+  C 10           B 5            D 9            E 8            A 4
+  --------------------------------------------------------------------------

@@ -1,6 +1,5 @@
-# Exercise 1 
 
-## Construction of Frequency Distribution  
+# Ex-1: Frequency Distribution  
 
 [Steps in construction of frequency distribution]{.ul}:  
 

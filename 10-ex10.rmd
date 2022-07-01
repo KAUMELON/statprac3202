@@ -1,0 +1,40 @@
+# Chi-square test
+
+1.  Below given are votes obtained for two candidates in an election
+    from the rural and urban areas. Test if the nature of area related
+    to voting performance
+
+  -----------------------------------------------------------------------
+                      A               B                 Total
+  ------------------- --------------- ----------------- -----------------
+  Rural               620             380               1000
+
+  Urban               550             450               1000
+
+  Total               1170            830               2000
+  -----------------------------------------------------------------------
+
+2.  Sample analysis of examination results of 200 MBA students was made.
+    It was found that 46 students have failed,68 secured a third
+    division, 62 secured second division and rest in first division. Are
+    these figures in agreement with general examination result which is
+    in the ration of 4:3:2:1 for various categories respectively
+
+3.  A survey was conducted on 500 paddy farmers to study the impact of
+    education on the adoption of HYV of rice. The education level was
+    divided into 3 groups based on their score and are represented as
+    low, medium and high. Similarly, the level of adoption was also
+    divided into three groups low, average and high. Test whether
+    education has any impact on adoption
+
+  -----------------------------------------------------------------------
+  Adoption level      Education                         
+  ------------------- --------------- ----------------- -----------------
+                      low             medium            high
+
+  Low                 55              90                65
+
+  Average             25              100               55
+
+  High                145             80                25
+  -----------------------------------------------------------------------

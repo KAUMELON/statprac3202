@@ -1,0 +1,67 @@
+# Testing of Hypothesis
+
+## Z test:
+
+1.  A sample of 900 leaves has got a mean weight of 3.4 gm. Test whether
+    the sample is taken from a large population of leaves with mean 3.25
+    gm and standard deviation 2.61 gm
+
+2.  For a particular variety of wheat, it was estimated that 5 % of the
+    plants were attacked by a certain disease. A sample of 600 plants of
+    the same variety was observed and found that 50 plants were infected
+    with that disease. Test whether the sample results are in conformity
+    with the population.
+
+3.  In a survey on paddy farmers in 2 Panchayat, it was observed that
+    100 out of 350 farmers were adopted New technologies for production
+    in the 1st Panchayat and 250 out of 600 farmers were adopted new
+    technologies in the 2nd pan. Test the prop of paddy farmers in 2
+    Panchayat with respect to the adaptaion of technologies?
+
+4.  A breeder claims that the number of filled grains per panicle is
+    more in a new variety of paddy ACM5 compared to that of an old
+    variety ADT 36. To verify his claim a random sample of 50 plants of
+    ACM 5 and 60 plants of ADT36 were selected from the experimental
+    field. The following results were obtained. Test whether the claim
+    of breeder is correct?
+
+$\overline{{	\ x}_{1}}$ = 139.4 $\overline{x_{2}}$ = 112.9 S~1~= 26.86
+S~2~ = 20.11
+
+5.  The correlation between yield and number of panicles based on a
+    sample of 7 plants of paddy was found to be 0.86. Test whether the
+    correlation of the population can be equal to 0.9?
+
+### t and F test:
+
+1.  The height of plants in a particular field is assumed to follow the
+    normal distribution. A random sample of 10 plants selected. The
+    height in cm. was recorded as 143, 126, 137, 109, 137, 120, 114,
+    120,126, and 131. Test whether the mean of the population is 120cm
+
+2.  The effectiveness of two sources of nitrogen namely ammonium
+    chloride and urea were tested by an experiment on rice. The grain
+    yield from two samples under the two sources is as follows.
+
+Ammo. Chloride: 13.4, 10.9, 11.2, 11.8, 14.0, 15.3, 14.2, 12.6, 17.0,
+16.2, 16.5, 15.7
+
+Urea: 12.0, 11.7, 10.7, 11.2, 14.8, 14.4, 13.9, 13.7, 16.9, 16.0, 15.6,
+16.0
+
+Assess which source of nitrogen is better for paddy.
+
+3.  The data related to two random samples from two populations are
+    given below. Test the significance between two population variances
+
+> Sample 1: 20,16,26,27,23,22,18,24,25,14
+>
+> Sample 2: 27,33,42,35,32,34,38,28,41,43,30,37
+
+4.  The following are marks obtained to students in two different
+    subjects. Test whether there is any difference between marks of two
+    subjects
+
+> Subject A:16,10,28,26,15,12,18
+>
+> Subject B:30,18,35,51,40,60,17,55

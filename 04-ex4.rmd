@@ -1,0 +1,34 @@
+# Ex-4: Skewness and Kurtosis
+
+1.  Two frequency distributions show the following results. Which of the two is more skewed?  
+
+```{r ex41, echo=FALSE,warning=FALSE,results='asis'}
+library(knitr)
+library(kableExtra)
+dt<-read.csv("csv/ex4q1.csv")
+dt %>%
+   kbl(booktabs = TRUE) %>% 
+   kable_classic(full_width = F, html_font = "Cambria")%>%
+kable_styling(latex_options = "HOLD_position")
+```  
+
+
+2.  The first 4 moments about the A. M. for a frequency distribution are
+    0, 2.5, 0.7 and 18.75. Find skewness and kurtosis.
+
+3.  Calculate the Bowley's coefficient of skewness  
+
+```{r ex42, echo=FALSE,warning=FALSE,results='asis'}
+library(knitr)
+library(kableExtra)
+dt<-read.csv("csv/ex4q3.csv")
+dt %>%
+   kbl(booktabs = TRUE) %>% 
+   kable_classic(full_width = F, html_font = "Cambria")%>%
+kable_styling(latex_options = "HOLD_position")
+```  
+
+
+4.  In a frequency distribution mean = 65, median = 70, Skp = -0.6,find mode and coefficient of variation?
+
+5.  In a frequency distribution, the skp based on quartiles is 0.6, sum of lower and upper quartiles is 100 and median is 38, find the quartiles?

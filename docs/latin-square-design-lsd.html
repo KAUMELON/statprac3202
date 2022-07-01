@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>1 Exercise 1 | PRACTICAL MANUAL OF STAT 3202</title>
+  <title>13 Latin Square Design (LSD) | PRACTICAL MANUAL OF STAT 3202</title>
   <meta name="description" content="A BOOK FOR UNDERGRADUATE PROGRAMME IN AGRICULTURE" />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="1 Exercise 1 | PRACTICAL MANUAL OF STAT 3202" />
+  <meta property="og:title" content="13 Latin Square Design (LSD) | PRACTICAL MANUAL OF STAT 3202" />
   <meta property="og:type" content="book" />
   
   <meta property="og:image" content="/images/coverpage.PNG" />
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="https://github.com/KAUMELON/stat3202" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="1 Exercise 1 | PRACTICAL MANUAL OF STAT 3202" />
+  <meta name="twitter:title" content="13 Latin Square Design (LSD) | PRACTICAL MANUAL OF STAT 3202" />
   
   <meta name="twitter:description" content="A BOOK FOR UNDERGRADUATE PROGRAMME IN AGRICULTURE" />
   <meta name="twitter:image" content="/images/coverpage.PNG" />
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="preface.html"/>
-<link rel="next" href="exercise-2.html"/>
+<link rel="prev" href="randomized-block-design-rbd.html"/>
+<link rel="next" href="references.html"/>
 <script src="libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -77,17 +77,11 @@
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Welcome</a></li>
 <li class="chapter" data-level="" data-path="preface.html"><a href="preface.html"><i class="fa fa-check"></i>Preface</a></li>
-<li class="chapter" data-level="1" data-path="exercise-1.html"><a href="exercise-1.html"><i class="fa fa-check"></i><b>1</b> Exercise 1</a>
-<ul>
-<li class="chapter" data-level="1.1" data-path="exercise-1.html"><a href="exercise-1.html#construction-of-frequency-distribution"><i class="fa fa-check"></i><b>1.1</b> Construction of Frequency Distribution</a></li>
-</ul></li>
-<li class="chapter" data-level="2" data-path="exercise-2.html"><a href="exercise-2.html"><i class="fa fa-check"></i><b>2</b> Exercise 2</a>
-<ul>
-<li class="chapter" data-level="2.1" data-path="exercise-2.html"><a href="exercise-2.html#measures-of-central-tendency"><i class="fa fa-check"></i><b>2.1</b> Measures of Central Tendency</a></li>
-</ul></li>
-<li class="chapter" data-level="3" data-path="measures-of-dispersion.html"><a href="measures-of-dispersion.html"><i class="fa fa-check"></i><b>3</b> Measures of Dispersion</a></li>
-<li class="chapter" data-level="4" data-path="skewness-and-kurtosis.html"><a href="skewness-and-kurtosis.html"><i class="fa fa-check"></i><b>4</b> Skewness and Kurtosis</a></li>
-<li class="chapter" data-level="5" data-path="correlation-analysis.html"><a href="correlation-analysis.html"><i class="fa fa-check"></i><b>5</b> Correlation Analysis</a></li>
+<li class="chapter" data-level="1" data-path="ex-1-frequency-distribution.html"><a href="ex-1-frequency-distribution.html"><i class="fa fa-check"></i><b>1</b> Ex-1: Frequency Distribution</a></li>
+<li class="chapter" data-level="2" data-path="ex-2-measures-of-central-tendency.html"><a href="ex-2-measures-of-central-tendency.html"><i class="fa fa-check"></i><b>2</b> Ex-2: Measures of Central Tendency</a></li>
+<li class="chapter" data-level="3" data-path="ex-3-measures-of-dispersion.html"><a href="ex-3-measures-of-dispersion.html"><i class="fa fa-check"></i><b>3</b> Ex-3: Measures of Dispersion</a></li>
+<li class="chapter" data-level="4" data-path="ex-4-skewness-and-kurtosis.html"><a href="ex-4-skewness-and-kurtosis.html"><i class="fa fa-check"></i><b>4</b> Ex-4: Skewness and Kurtosis</a></li>
+<li class="chapter" data-level="5" data-path="ex-5-correlation-analysis.html"><a href="ex-5-correlation-analysis.html"><i class="fa fa-check"></i><b>5</b> Ex-5: Correlation Analysis</a></li>
 <li class="chapter" data-level="6" data-path="regression-analysis.html"><a href="regression-analysis.html"><i class="fa fa-check"></i><b>6</b> Regression Analysis</a></li>
 <li class="chapter" data-level="7" data-path="probability.html"><a href="probability.html"><i class="fa fa-check"></i><b>7</b> Probability</a></li>
 <li class="chapter" data-level="8" data-path="probability-distributions.html"><a href="probability-distributions.html"><i class="fa fa-check"></i><b>8</b> Probability Distributions</a>
@@ -129,329 +123,70 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="exercise-1" class="section level1" number="1">
-<h1><span class="header-section-number">1</span> Exercise 1</h1>
-<div id="construction-of-frequency-distribution" class="section level2" number="1.1">
-<h2><span class="header-section-number">1.1</span> Construction of Frequency Distribution</h2>
-<p><u>Steps in construction of frequency distribution</u>:</p>
-<ul>
-<li>Determine the number of classes<br />
-</li>
-<li>Determine the class width<br />
-</li>
-<li>Set up the individual class limits<br />
-</li>
-<li>Tally the items into the classes<br />
-</li>
-<li>Count the number of items in each class</li>
-</ul>
-<p>Table below shows the data related to the grain yield in (g /plot) of a sorghum variety from experimental plots of equal area from a continuous frequency distribution. Prepare a frequency distribution and cumulative frequency distribution</p>
-<table class=" lightable-classic table" style="font-family: Cambria; width: auto !important; margin-left: auto; margin-right: auto; margin-left: auto; margin-right: auto;">
+<div id="latin-square-design-lsd" class="section level1" number="13">
+<h1><span class="header-section-number">13</span> Latin Square Design (LSD)</h1>
+<ol style="list-style-type: decimal">
+<li>An experiment was conducted in LSD to compare the yield of 5
+varieties of wheat. The layout data pertaining to yield are given
+below. Analyse the data</li>
+</ol>
+<table style="width:97%;">
+<colgroup>
+<col width="19%" />
+<col width="19%" />
+<col width="19%" />
+<col width="19%" />
+<col width="19%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">E 7</th>
+<th align="left">C 11</th>
+<th align="left">B 6</th>
+<th align="left">A 5</th>
+<th align="left">D 6</th>
+</tr>
+</thead>
 <tbody>
-<tr>
-<td style="text-align:right;">
-194
-</td>
-<td style="text-align:right;">
-129
-</td>
-<td style="text-align:right;">
-166
-</td>
-<td style="text-align:right;">
-164
-</td>
-<td style="text-align:right;">
-154
-</td>
-<td style="text-align:right;">
-139
-</td>
-<td style="text-align:right;">
-128
-</td>
-<td style="text-align:right;">
-120
-</td>
-<td style="text-align:right;">
-80
-</td>
-<td style="text-align:right;">
-168
-</td>
+<tr class="odd">
+<td align="left">A 3</td>
+<td align="left">E 7</td>
+<td align="left">C 11</td>
+<td align="left">D 7</td>
+<td align="left">B 5</td>
 </tr>
-<tr>
-<td style="text-align:right;">
-150
-</td>
-<td style="text-align:right;">
-186
-</td>
-<td style="text-align:right;">
-156
-</td>
-<td style="text-align:right;">
-179
-</td>
-<td style="text-align:right;">
-153
-</td>
-<td style="text-align:right;">
-157
-</td>
-<td style="text-align:right;">
-155
-</td>
-<td style="text-align:right;">
-115
-</td>
-<td style="text-align:right;">
-676
-</td>
-<td style="text-align:right;">
-171
-</td>
+<tr class="even">
+<td align="left">B 4</td>
+<td align="left">D 8</td>
+<td align="left">A 4</td>
+<td align="left">C 9</td>
+<td align="left">E 8</td>
 </tr>
-<tr>
-<td style="text-align:right;">
-118
-</td>
-<td style="text-align:right;">
-143
-</td>
-<td style="text-align:right;">
-191
-</td>
-<td style="text-align:right;">
-148
-</td>
-<td style="text-align:right;">
-152
-</td>
-<td style="text-align:right;">
-187
-</td>
-<td style="text-align:right;">
-129
-</td>
-<td style="text-align:right;">
-119
-</td>
-<td style="text-align:right;">
-139
-</td>
-<td style="text-align:right;">
-177
-</td>
+<tr class="odd">
+<td align="left">D 8</td>
+<td align="left">A 5</td>
+<td align="left">E 9</td>
+<td align="left">B 4</td>
+<td align="left">C 12</td>
 </tr>
-<tr>
-<td style="text-align:right;">
-191
-</td>
-<td style="text-align:right;">
-214
-</td>
-<td style="text-align:right;">
-167
-</td>
-<td style="text-align:right;">
-165
-</td>
-<td style="text-align:right;">
-186
-</td>
-<td style="text-align:right;">
-111
-</td>
-<td style="text-align:right;">
-155
-</td>
-<td style="text-align:right;">
-164
-</td>
-<td style="text-align:right;">
-125
-</td>
-<td style="text-align:right;">
-99
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-86
-</td>
-<td style="text-align:right;">
-170
-</td>
-<td style="text-align:right;">
-111
-</td>
-<td style="text-align:right;">
-169
-</td>
-<td style="text-align:right;">
-141
-</td>
-<td style="text-align:right;">
-164
-</td>
-<td style="text-align:right;">
-89
-</td>
-<td style="text-align:right;">
-180
-</td>
-<td style="text-align:right;">
-225
-</td>
-<td style="text-align:right;">
-139
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-127
-</td>
-<td style="text-align:right;">
-136
-</td>
-<td style="text-align:right;">
-144
-</td>
-<td style="text-align:right;">
-165
-</td>
-<td style="text-align:right;">
-154
-</td>
-<td style="text-align:right;">
-74
-</td>
-<td style="text-align:right;">
-156
-</td>
-<td style="text-align:right;">
-142
-</td>
-<td style="text-align:right;">
-162
-</td>
-<td style="text-align:right;">
-160
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-171
-</td>
-<td style="text-align:right;">
-134
-</td>
-<td style="text-align:right;">
-177
-</td>
-<td style="text-align:right;">
-178
-</td>
-<td style="text-align:right;">
-168
-</td>
-<td style="text-align:right;">
-165
-</td>
-<td style="text-align:right;">
-188
-</td>
-<td style="text-align:right;">
-131
-</td>
-<td style="text-align:right;">
-154
-</td>
-<td style="text-align:right;">
-107
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-189
-</td>
-<td style="text-align:right;">
-156
-</td>
-<td style="text-align:right;">
-176
-</td>
-<td style="text-align:right;">
-150
-</td>
-<td style="text-align:right;">
-142
-</td>
-<td style="text-align:right;">
-144
-</td>
-<td style="text-align:right;">
-153
-</td>
-<td style="text-align:right;">
-190
-</td>
-<td style="text-align:right;">
-183
-</td>
-<td style="text-align:right;">
-180
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-161
-</td>
-<td style="text-align:right;">
-170
-</td>
-<td style="text-align:right;">
-195
-</td>
-<td style="text-align:right;">
-136
-</td>
-<td style="text-align:right;">
-91
-</td>
-<td style="text-align:right;">
-187
-</td>
-<td style="text-align:right;">
-152
-</td>
-<td style="text-align:right;">
-145
-</td>
-<td style="text-align:right;">
-98
-</td>
-<td style="text-align:right;">
-166
-</td>
+<tr class="even">
+<td align="left">C 10</td>
+<td align="left">B 5</td>
+<td align="left">D 9</td>
+<td align="left">E 8</td>
+<td align="left">A 4</td>
 </tr>
 </tbody>
 </table>
-<p><u><strong>SOLUTION</strong></u>:</p>
-<p>Number of Classes, <em>k</em> =1 + 3.322 log<sub>10</sub><em>N</em> =</p>
-<p>Class width, C = | max - min|/ k =</p>
-<p>Lower limit as L = min - <span class="math inline">\(\frac{c^{&#39;} - k^{&#39;} - (max - min)}{2}\)</span> =</p>
 
-</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="preface.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="exercise-2.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="randomized-block-design-rbd.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="references.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

@@ -3,8 +3,7 @@ output:
   pdf_document: default
   html_document: default
 ---
-# Exercise 2  
-## Measures of Central Tendency  
+# Ex-2: Measures of Central Tendency  
 
 1. If the weights of 5 ear heads of sorghum are 100, 102, 118, 124 & 126, find the mean weight?  
 

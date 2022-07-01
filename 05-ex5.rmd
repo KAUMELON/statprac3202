@@ -1,0 +1,61 @@
+# Ex-5: Correlation Analysis
+
+1.  The gain in weight of 10 children (X) and the increase in levels of protein content in their diet (Y) are recorded as follows. Find the correlation between increase in weight and level of protein content
+
+```{r ex52, echo=FALSE,warning=FALSE,results='asis'}
+library(knitr)
+library(kableExtra)
+dt<-read.csv("csv/ex5q1.csv")
+dt %>%
+   kbl(col.names = NULL) %>% 
+   kable_classic(full_width = F, html_font = "Cambria")%>%
+kable_styling(latex_options = "HOLD_position")
+```
+
+2.  The following are data based on an average number of tillers (x) and the corresponding yield (y) from 10 samples of turmeric crop. Find the correlation between yield and number of tillers
+
+```{r ex53, echo=FALSE,warning=FALSE,results='asis'}
+library(knitr)
+library(kableExtra)
+dt<-read.csv("csv/ex5q2.csv")
+dt %>%
+   kbl(col.names = NULL) %>% 
+   kable_classic(full_width = F, html_font = "Cambria")%>%
+kable_styling(latex_options = "HOLD_position")
+```
+
+3.  The following are data on grain yield (Y), number of ears per plant (X~1~), ear length (X~2~) and 100 grain weight (X~3~) of eight varieties of barley. Compute the correlation coefficient of grain yield with X~1~, X~2~ and X~3~  
+
+```{r ex54, echo=FALSE,warning=FALSE,results='asis'}
+library(knitr)
+library(kableExtra)
+dt<-read.csv("csv/ex5q3.csv")
+dt %>%
+   kbl(col.names = NULL) %>% 
+   kable_classic(full_width = F, html_font = "Cambria")%>%
+kable_styling(latex_options = "HOLD_position")
+```
+
+4.  The marks obtained b 9 recruits in the selection test (x) and proficiency test (y) are given below. Find Spearman's rank correlation coefficient
+
+```{r ex56, echo=FALSE,warning=FALSE,results='asis'}
+library(knitr)
+library(kableExtra)
+dt<-read.csv("csv/ex5q4.csv")
+dt %>%
+   kbl(col.names = NULL) %>% 
+   kable_classic(full_width = F, html_font = "Cambria")%>%
+kable_styling(latex_options = "HOLD_position")
+```
+
+5.  Three officers gave the following ranks to 6 candidates (X1, X2, X3, X4, X5, X6) in an interview. Find the degree of agreement among the three officers.  
+
+```{r ex57, echo=FALSE,warning=FALSE,results='asis'}
+library(knitr)
+library(kableExtra)
+dt<-read.csv("csv/ex5q5.csv")
+dt %>%
+   kbl(booktabs = TRUE) %>% 
+   kable_classic(full_width = F, html_font = "Cambria")%>%
+kable_styling(latex_options = "HOLD_position")
+```

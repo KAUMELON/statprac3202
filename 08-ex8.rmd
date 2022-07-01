@@ -1,0 +1,84 @@
+# Probability Distributions
+
+## Binomial Distribution:
+
+1.  Determine the Binomial distribution for which mean is 4 and variance
+    is 3
+
+2.  The incidence of disease due to Malnutrition is noticed in 20% of
+    children in an area. What is the probability that out of 6 children
+    selected at random (i) No child to get the disease (ii) One child to
+    get the disease and (iii) 4 or more children will get the disease?
+
+3.  If on average, rain falls on 12 days in every 30 days, find the
+    probability that (1) I^st^ of 4 days even in a week will be fine and
+    the remaining days as wet.
+
+4.  The incidence of occupational disease in industry is such that the
+    workers have 20% of chance of suffering from it. What is the
+    probability that out of 6 workers 4 on more workers will have the
+    chance of suffering from occupational disease?
+
+### Poisson Distribution:
+
+1.  10% of tools produced in certain manufacturing process turned out to
+    be defective. Find the probability that in a sample of 10 tools
+    chosen at random if the no of defective follows Poisson
+    distribution a) exactly 2 will be defective b) At least 4 will be
+    defective c) At most 4 will be defective
+
+2.  A company known on the past experience that 3% of the bulbs they
+    produced are defective. Assuming Poisson distribution find the
+    probability of getting the following in a sample of 100 bulbs:
+
+    a.  No defective
+
+    b.  1 defective
+
+    c.  2 Defectives
+
+    d.  3 defectives.
+
+3.  It is noted that one tree out of 2000 trees of a farm used to get
+    fire every year by lightning. If there are 4000 trees in a farm,
+    what is the probability that exactly five trees will get fire during
+    that year?
+
+4.  A book contains 200 printing mistakes distributed randomly
+    throughout its 200 pages. What is the probability that a page
+    observed at random contain at least 2 printing mistakes?
+
+3### Normal Distribution:
+
+1.  Height of Barley plants in a field is assumed to follow normal
+    distribution with an average height of 87.5 cm and with a S.D of
+    10 cm. A sample of 150 plants was selected from a plot of the field.
+    Find the number of plants
+
+> \(a\) Having height between 70 cm and 90 cm
+>
+> \(b\) Having height more than 100 cm.
+>
+> \(c\) \< 70 cm.
+
+2.  Find the probability that a standard normal variate will lie between
+    0 and 1.25
+
+3.  Given that the average height attained by certain tree species is
+    50m with standard deviation of 8m. Find the probability that the
+    height of tree grown in a farm is in between 34 and 62ms.
+
+4.  Given that the average number of rainy days in a place per year is
+    normally distributed with mean number of days is 200 and standard
+    deviation of 25 days. Find the probability that in a particular year
+    there are more than 240 rainy days.
+
+5.  It is known that the average duration of crop is 120 days with a
+    standard deviation of 40 days. Assuming that the duration of crop is
+    normally distributed. Find
+
+    a.  Probability that duration of crop exceeds 150 days
+
+    b.  Probability that the duration between 100 and 150 days
+
+    c.  Probability between 60 and 90 days.

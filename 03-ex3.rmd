@@ -1,0 +1,58 @@
+# Ex-3: Measures of Dispersion
+
+1.  The following value represent district wise yield value of black pepper in Kerala. Find Range and Quartile deviation
+
+> 300,350,550,420,340,655,250,360,250,315,200,138,275,120
+
+2.  Find the mean deviation about mean for the following data
+
+```{r ex32, echo=FALSE,warning=FALSE,results='asis'}
+library(knitr)
+library(kableExtra)
+dt<-read.csv("csv/ex3q2.csv")
+dt %>%
+   kbl(booktabs = TRUE) %>% 
+   kable_classic(full_width = F, html_font = "Cambria")%>%
+kable_styling(latex_options = "HOLD_position")
+```
+
+3.  Compute standard deviation and variance for the following data
+
+```{r ex33, echo=FALSE,warning=FALSE,results='asis'}
+library(knitr)
+library(kableExtra)
+dt<-read.csv("csv/ex3q3.csv")
+dt %>%
+  kbl(booktabs = TRUE) %>%
+   kable_classic(full_width = F, html_font = "Cambria")%>%
+kable_styling(latex_options = "HOLD_position")
+```  
+
+
+4.  The following table shows average distribution of wage of 200 workers in a factory. Compute quartile deviation for the data  
+```{r ex34, echo=FALSE,warning=FALSE,results='asis'}
+library(knitr)
+library(kableExtra)
+dt<-read.csv("csv/ex3q4.csv")
+dt %>%
+  kbl(booktabs = TRUE) %>%
+   kable_classic(full_width = F, html_font = "Cambria")%>%
+kable_styling(latex_options = "HOLD_position")
+```  
+
+
+5.  The following are the data on number of insects caught during different days by two different types of traps. Determine which trap show more variation with respect to the number of insects caught  
+
+```{r ex35, echo=FALSE,warning=FALSE,results='asis'}
+library(knitr)
+library(kableExtra)
+dt<-read.csv("csv/ex3q5.csv")
+dt %>%
+ kbl(booktabs = TRUE) %>%
+   kable_classic(full_width = F, html_font = "Cambria")%>%
+kable_styling(latex_options = "HOLD_position")
+```  
+
+6.  The following value represents the yield obtained from 15 mango trees. Find the quartile deviation, mean deviation and standard deviation.
+
+> 105,102,91,86,150,96,70,175,110,101,99,66,120,135,79
